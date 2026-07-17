@@ -22,4 +22,13 @@ resource "lab" "main" {
       show_stop = true
     }
   }
+  content {
+    chapter "__default" {
+      title = "Default"
+      page "untitled-page-1" {
+        title     = "Untitled page 1"
+        reference = resource.page.untitled-page-1
+      }
+    }
+  }
 }
