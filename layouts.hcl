@@ -7,7 +7,7 @@ resource "layout" "single_panel" {
       target = resource.terminal.sss
     }
     instructions {
-      title = "Instructions 452"
+      title = "Instructions 412"
     }
   }
 }
