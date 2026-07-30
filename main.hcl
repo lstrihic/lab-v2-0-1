@@ -26,7 +26,7 @@ resource "lab" "main" {
     chapter "__default" {
       title = "Default"
       page "untitled-page-1" {
-        title     = "Untitled page 434"
+        title     = "Untitled page 4w34"
         reference = resource.page.untitled-page-1
       }
     }
